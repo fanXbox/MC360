@@ -743,7 +743,7 @@
 		<control type="label">
 			<description>Select Label</description>
 			<include>KeymapFont</include>
-			<posx>553</posx>
+			<posx>513</posx>
 			<posy>528</posy>
 			<label>31024</label>
 			<align>right</align>
