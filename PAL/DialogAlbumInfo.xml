@@ -84,7 +84,7 @@
 			</control>
 			<control type="label">
 				<description>Back Label</description>
-				<posx>619</posx>
+				<posx>559</posx>
 				<posy>479</posy>
 				<label>31027</label>
 				<align>right</align>
@@ -93,7 +93,7 @@
 			</control>
 			<control type="label">
 				<description>Select Label</description>
-				<posx>634</posx>
+				<posx>574</posx>
 				<posy>501</posy>
 				<label>31024</label>
 				<align>right</align>

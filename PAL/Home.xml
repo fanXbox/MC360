@@ -829,7 +829,7 @@
 		<control type="label">
 			<description>Select Label</description>
 			<include>KeymapFont</include>
-			<posx>588</posx>
+			<posx>528</posx>
 			<posy>528</posy>
 			<label>31024</label>
 			<align>right</align>
@@ -1530,4 +1530,4 @@
 		</control>
 		<!-- End Blades for System -->
 	</controls>
-</window>          
+</window>          

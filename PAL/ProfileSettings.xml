@@ -113,7 +113,7 @@
 			</control>
 			<control type="label">
 				<description>Back Label</description>
-				<posx>424</posx>
+				<posx>364</posx>
 				<posy>479</posy>
 				<label>31027</label>
 				<align>right</align>
@@ -321,4 +321,4 @@
 			<textoffsetx>12</textoffsetx>
 		</control>
 	</controls>
-</window>              
+</window>              

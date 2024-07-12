@@ -534,7 +534,7 @@
 			<control type="label">
 				<description>Back Label</description>
 				<include>KeymapFont</include>
-				<posx>610</posx>
+				<posx>570</posx>
 				<posy>508</posy>
 				<label>31027</label>
 				<align>right</align>
@@ -550,7 +550,7 @@
 			<control type="label">
 				<description>Select Label</description>
 				<include>KeymapFont</include>
-				<posx>623</posx>
+				<posx>583</posx>
 				<posy>528</posy>
 				<label>31024</label>
 				<align>right</align>
@@ -558,4 +558,4 @@
 		</control>
 		<include>SubtoFullCommonsBlades</include>
 	</controls>
-</window>        
+</window>        

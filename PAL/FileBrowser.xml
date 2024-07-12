@@ -462,10 +462,10 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>309</posx>
+			<posx>249</posx>
 			<posy>479</posy>
 			<label>31027</label>
-			<align>right</align>
+			<align>left</align>
 			<font>font12</font>
 			<visible>Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
@@ -475,10 +475,10 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>321</posx>
+			<posx>261</posx>
 			<posy>502</posy>
 			<label>31024</label>
-			<align>right</align>
+			<align>left</align>
 			<font>font12</font>
 			<visible>Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
@@ -532,10 +532,10 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>309</posx>
+			<posx>249</posx>
 			<posy>479</posy>
 			<label>31027</label>
-			<align>right</align>
+			<align>left</align>
 			<font>font12</font>
 			<visible>![Window.IsActive(1120) | Window.IsActive(1121)  | Window.IsActive(1122) | [Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)]]</visible>
 			<animation effect="slide" time="250" start="-512,0">WindowOpen</animation>
@@ -543,10 +543,10 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>321</posx>
+			<posx>261</posx>
 			<posy>502</posy>
 			<label>31024</label>
-			<align>right</align>
+			<align>left</align>
 			<font>font12</font>
 			<visible>![Window.IsActive(1120) | Window.IsActive(1121)  | Window.IsActive(1122) | [Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)]]</visible>
 			<animation effect="slide" time="250" start="-512,0">WindowOpen</animation>
@@ -637,10 +637,10 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>309</posx>
+			<posx>249</posx>
 			<posy>479</posy>
 			<label>31027</label>
-			<align>right</align>
+			<align>left</align>
 			<font>font12</font>
 			<visible>[Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)] + !Window.IsActive(playercontrols) + !Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
@@ -650,10 +650,10 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>321</posx>
+			<posx>261</posx>
 			<posy>502</posy>
 			<label>31024</label>
-			<align>right</align>
+			<align>left</align>
 			<font>font12</font>
 			<visible>[Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)] + !Window.IsActive(playercontrols) + !Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
@@ -716,10 +716,10 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>309</posx>
+			<posx>249</posx>
 			<posy>479</posy>
 			<label>31027</label>
-			<align>right</align>
+			<align>left</align>
 			<font>font12</font>
 			<visible>[Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)] + Window.IsActive(playercontrols) + !Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
@@ -729,10 +729,10 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>321</posx>
+			<posx>261</posx>
 			<posy>502</posy>
 			<label>31024</label>
-			<align>right</align>
+			<align>left</align>
 			<font>font12</font>
 			<visible>[Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)] + Window.IsActive(playercontrols) + !Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
@@ -741,4 +741,4 @@
 			<animation effect="fade" time="150">WindowClose</animation>
 		</control>
 	</controls>
-</window>        
+</window>        

@@ -1546,7 +1546,7 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>424</posx>
+			<posx>364</posx>
 			<posy>479</posy>
 			<label>31027</label>
 			<align>right</align>
@@ -1559,7 +1559,7 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>436</posx>
+			<posx>376</posx>
 			<posy>502</posy>
 			<label>31024</label>
 			<align>right</align>
@@ -1625,7 +1625,7 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>424</posx>
+			<posx>364</posx>
 			<posy>479</posy>
 			<label>31027</label>
 			<align>right</align>
@@ -1638,7 +1638,7 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>436</posx>
+			<posx>376</posx>
 			<posy>502</posy>
 			<label>31024</label>
 			<align>right</align>
@@ -1676,4 +1676,4 @@
 			<animation effect="fade" time="150">WindowClose</animation>
 		</control>
 	</controls>
-</window>      
+</window>      

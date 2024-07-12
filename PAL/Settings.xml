@@ -641,7 +641,7 @@
 		<control type="label">
 			<description>Select Label</description>
 			<include>KeymapFont</include>
-			<posx>623</posx>
+			<posx>563</posx>
 			<posy>528</posy>
 			<label>31024</label>
 			<align>right</align>
@@ -1057,4 +1057,4 @@
 		</control>
 		<!-- End Media Blades -->
 	</controls>
-</window>          
+</window>          

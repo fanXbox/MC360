@@ -400,7 +400,7 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>321</posx>
+			<posx>261</posx>
 			<posy>502</posy>
 			<label>31024</label>
 			<align>right</align>
@@ -411,4 +411,4 @@
 		</control>
 		<!-- My version Rocky5 end -->
 	</controls>
-</window>        
+</window>        
