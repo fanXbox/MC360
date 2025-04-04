@@ -22,14 +22,14 @@
 					<description>Guide Blade Background</description>
 					<posx>-60</posx>
 					<posy>0</posy>
-					<width>548</width>
+					<width>521</width>
 					<height>576</height>
 					<texture>background-grey.png</texture>
 					<visible>!Skin.String(GuidePanel)</visible>
 				</control>
 				<control type="image">
 					<description>Custom Guide Blade Background</description>
-					<posx>-60</posx>
+					<posx>-87</posx>
 					<posy>0</posy>
 					<width>548</width>
 					<height>576</height>
@@ -49,13 +49,13 @@
 					<description>Guide Edge Overlay</description>
 					<posx>390</posx>
 					<posy>0</posy>
-					<width>128</width>
+					<width>100</width>
 					<height>576</height>
 					<texture>guide-blade-overlay-edge-left.png</texture>
 				</control>
 				<control type="label">
 					<description>GamerTag Label</description>
-					<posx>466</posx>
+					<posx>448</posx>
 					<posy>200</posy>
 					<angle>270</angle>
 					<include>GamerName</include>
@@ -81,19 +81,19 @@
 				</control>
 				<control type="label">
 					<description>Back Label</description>
-					<posx>321</posx>
 					<posy>479</posy>
+					<width>520</width>
+					<align>center</align>
 					<label>31027</label>
 					<font>font12</font>
-					<align>right</align>
 				</control>
 				<control type="label">
 					<description>Select Label</description>
-					<posx>333</posx>
 					<posy>502</posy>
+					<width>550</width>
+					<align>center</align>
 					<label>31024</label>
 					<font>font12</font>
-					<align>right</align>
 				</control>
 			</control>
 			<control type="group">
@@ -126,12 +126,11 @@
 				</control>
 			</control>
 		</control>
-
 		<control type="image">
 			<description>Guide Blade Background</description>
 			<posx>-60</posx>
 			<posy>0</posy>
-			<width>548</width>
+			<width>521</width>
 			<height>576</height>
 			<texture>background-grey.png</texture>
 			<visible>!Skin.String(GuidePanel)</visible>
@@ -142,7 +141,7 @@
 		</control>
 		<control type="image">
 			<description>Custom Guide Blade Background</description>
-			<posx>-60</posx>
+			<posx>-87</posx>
 			<posy>0</posy>
 			<width>548</width>
 			<height>576</height>
@@ -170,7 +169,7 @@
 			<description>Guide Edge Overlay</description>
 			<posx>390</posx>
 			<posy>0</posy>
-			<width>128</width>
+			<width>100</width>
 			<height>576</height>
 			<texture>guide-blade-overlay-edge-left.png</texture>
 			<visible>![Window.IsActive(128) | Window.IsActive(126) | Window.IsActive(103)]</visible>
@@ -180,7 +179,7 @@
 		</control>
 		<control type="label">
 			<description>GamerTag Label</description>
-			<posx>466</posx>
+			<posx>448</posx>
 			<posy>200</posy>
 			<angle>270</angle>
 			<include>GamerName</include>
@@ -545,11 +544,11 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>314</posx>
 			<posy>479</posy>
+			<width>520</width>
+			<align>center</align>
 			<label>31027</label>
 			<font>font12</font>
-			<align>right</align>
 			<visible>![Window.IsActive(128) | Window.IsActive(126) | Window.IsActive(103)]</visible>
 			<animation effect="fade" time="100">Hidden</animation>
 			<animation effect="fade" delay="450" time="200">Visible</animation>
@@ -558,11 +557,11 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>326</posx>
 			<posy>502</posy>
+			<width>550</width>
+			<align>center</align>
 			<label>31024</label>
 			<font>font12</font>
-			<align>right</align>
 			<visible>![Window.IsActive(128) | Window.IsActive(126) | Window.IsActive(103)]</visible>
 			<animation effect="fade" time="100">Hidden</animation>
 			<animation effect="fade" delay="450" time="200">Visible</animation>
@@ -570,4 +569,4 @@
 			<animation effect="slide" time="250" delay="250" end="-587,0">WindowClose</animation>
 		</control>
 	</controls>
-</window>    
+</window>

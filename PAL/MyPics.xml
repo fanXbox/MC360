@@ -338,10 +338,10 @@
 		<control type="label">
 			<description>Back Label</description>
 			<include>KeymapFont</include>
-			<posx>570</posx>
 			<posy>508</posy>
+			<width>1000</width>
+			<align>center</align>
 			<label>31027</label>
-			<align>right</align>
 			<animation effect="fade" time="200" condition="Window.Previous(Home)">WindowOpen</animation>
 			<animation effect="fade" end="0" condition="Window.Next(Home)">WindowClose</animation>
 		</control>
@@ -358,10 +358,10 @@
 		<control type="label">
 			<description>Select Label</description>
 			<include>KeymapFont</include>
-			<posx>583</posx>
 			<posy>528</posy>
+			<width>1030</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>right</align>
 			<animation effect="fade" time="200" condition="Window.Previous(Home)">WindowOpen</animation>
 			<animation effect="fade" end="0" condition="Window.Next(Home)">WindowClose</animation>
 		</control>

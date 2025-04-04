@@ -328,19 +328,19 @@
 			</control>
 			<control type="label">
 				<description>Back Label</description>
-				<posx>602</posx>
 				<posy>479</posy>
+				<width>1066</width>
+				<align>center</align>
 				<label>31027</label>
-				<align>right</align>
 				<font>font12</font>
 				<textcolor>TextcolorWhite</textcolor>
 			</control>
 			<control type="label">
 				<description>Select Label</description>
-				<posx>616</posx>
 				<posy>501</posy>
+				<width>1096</width>
+				<align>center</align>
 				<label>31024</label>
-				<align>right</align>
 				<font>font12</font>
 				<textcolor>TextcolorWhite</textcolor>
 			</control>

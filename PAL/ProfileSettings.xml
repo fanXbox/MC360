@@ -23,7 +23,7 @@
 			<animation effect="slide" delay="200" time="300" end="-655,0">WindowClose</animation>
 			<control type="image">
 				<description>Guide Blade Background</description>
-				<posx>0</posx>
+				<posx>-27</posx>
 				<posy>0</posy>
 				<width>548</width>
 				<height>576</height>
@@ -32,7 +32,7 @@
 			</control>
 			<control type="image">
 				<description>Custom Guide Blade Background</description>
-				<posx>0</posx>
+				<posx>-27</posx>
 				<posy>0</posy>
 				<width>548</width>
 				<height>576</height>
@@ -52,7 +52,7 @@
 				<description>Guide Edge Overlay</description>
 				<posx>450</posx>
 				<posy>0</posy>
-				<width>128</width>
+				<width>100</width>
 				<height>576</height>
 				<texture>guide-blade-overlay-edge-left.png</texture>
 			</control>
@@ -78,7 +78,6 @@
 				<font>font13</font>
 				<shadowcolor>shadow-black</shadowcolor>
 			</control>
-			<!-- Start Guide Button Map -->
 			<control type="image">
 				<description>Back Button</description>
 				<posx>430</posx>
@@ -113,53 +112,44 @@
 			</control>
 			<control type="label">
 				<description>Back Label</description>
-				<posx>364</posx>
 				<posy>479</posy>
+				<width>620</width>
+				<align>center</align>
 				<label>31027</label>
-				<align>right</align>
 				<font>font12</font>
 			</control>
 			<control type="label">
 				<description>Select Label</description>
-				<posx>436</posx>
 				<posy>502</posy>
+				<width>620</width>
+				<align>center</align>
 				<label>14070</label>
-				<align>right</align>
 				<font>font12</font>
 			</control>
 		</control>
 		<!-- End Background -->
 		<control type="group">
-			<animation effect="fade" delay="550" time="200">WindowOpen</animation>
-			<animation effect="fade" time="0">WindowClose</animation>
+			<animation effect="fade" delay="450" time="200">WindowOpen</animation>
+			<animation effect="fade" time="200">WindowClose</animation>
 			<control type="image">
-				<description>profile image</description>
-				<posx>58</posx>
-				<posy>108</posy>
-				<width>88</width>
-				<height>88</height>
-				<texture>gamercard_defaultgamerpic.png</texture>
-				<visible>!Skin.String(GamerIcon)</visible>
+				<description>profile image ovelay</description>
+				<posx>60</posx>
+				<posy>90</posy>
+				<width>103</width>
+				<height>128</height>
+				<align>left</align>
+				<font>font13</font>
+				<texture>profile_iconoutline.png</texture>
 			</control>
 			<control type="image" id="2">
 				<description>profile image</description>
-				<posx>58</posx>
+				<posx>79</posx>
 				<posy>108</posy>
-				<width>88</width>
+				<width>70</width>
 				<height>88</height>
 				<align>left</align>
 				<font>font13</font>
 				<texture>-</texture>
-			</control>
-			<control type="image">
-				<description>profile image ovelay</description>
-				<posx>35</posx>
-				<posy>90</posy>
-				<width>128</width>
-				<height>128</height>
-				<align>left</align>
-				<font>font13</font>
-				<texture>gamercard_iconoutline.png</texture>
 			</control>
 			<control type="label" id="1000">
 				<description>profile name label</description>
@@ -321,4 +311,4 @@
 			<textoffsetx>12</textoffsetx>
 		</control>
 	</controls>
-</window>              
+</window>

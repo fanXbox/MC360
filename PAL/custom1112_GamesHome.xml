@@ -165,7 +165,7 @@
 		</control>
 		<!-- Begin GamerCard -->
 		<control type="group" id="4">
-			<posx>121</posx>
+			<posx>130</posx>
 			<posy>77</posy>
 			<control type="group">
 				<visible>!Control.HasFocus(1) + !Control.HasFocus(2) + ![Skin.HasSetting(games_card_sysinfo) | Skin.HasSetting(games_card_weather)] + ![Skin.HasSetting(MusicCard) + Player.HasAudio]</visible>
@@ -196,9 +196,9 @@
 			<animation effect="fade" time="100">WindowOpen</animation>
 			<control type="image">
 				<description>MC360 Logo</description>
-				<posx>428</posx>
+				<posx>440</posx>
 				<posy>83</posy>
-				<width>128</width>
+				<width>104</width>
 				<height>128</height>
 				<texture>MC360_logo.png</texture>
 				<visible>!Control.HasFocus(1) + !Control.HasFocus(2)</visible>
@@ -247,7 +247,7 @@
 				<posx>145</posx>
 				<posy>200</posy>
 				<label>31002</label>
-				<onclick>ActivateWindow(1,Games)</onclick>
+				<onclick>XBMC.ActivateWindow(1,Games)</onclick>
 				<texturefocus>icon-games.png</texturefocus>
 				<texturenofocus>icon-games.png</texturenofocus>
 				<visible>!Control.HasFocus(1) + !Control.HasFocus(2)</visible>
@@ -743,10 +743,10 @@
 		<control type="label">
 			<description>Select Label</description>
 			<include>KeymapFont</include>
-			<posx>493</posx>
 			<posy>528</posy>
+			<width>890</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>right</align>
 			<visible>!Control.HasFocus(1) + !Control.HasFocus(2)</visible>
 			<animation effect="fade" time="100">WindowOpen</animation>
 		</control>
@@ -1115,17 +1115,17 @@
 		<control type="image">
 			<description>Left Blade Runner</description>
 			<posx>-61</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-left.png</texture>
 		</control>
 		<control type="image">
 			<description>Right Blade Runner</description>
 			<posx>665</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-right.png</texture>
 		</control>
 		<!-- End Real Blade Runners -->
@@ -1133,17 +1133,17 @@
 		<control type="image">
 			<description>XBMC Live Blade</description>
 			<posx>18</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size3-left-NF.png</texture>
 			<visible>!Control.HasFocus(1) + !Control.HasFocus(2)</visible>
 		</control>
 		<control type="label">
 			<description>XBMC Live Label</description>
 			<label>31018</label>
-			<posx>79</posx>
-			<posy>163</posy>
+			<posx>80</posx>
+			<posy>132</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -1153,17 +1153,17 @@
 		<control type="image">
 			<description>Games Blade Image Focus on Left</description>
 			<posx>53</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size4-header.png</texture>
 			<visible>!Control.HasFocus(1)</visible>
 		</control>
 		<control type="label">
 			<description>Games Blade Label on Left</description>
 			<label>31011</label>
-			<posx>114</posx>
-			<posy>155</posy>
+			<posx>115</posx>
+			<posy>120</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorBlack</textcolor>
 			<aligny>top</aligny>
@@ -1173,17 +1173,17 @@
 		<control type="image">
 			<description>System Blade</description>
 			<posx>633</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size2-right-NF.png</texture>
 			<visible>!Control.HasFocus(1) + !Control.HasFocus(2)</visible>
 		</control>
 		<control type="label">
 			<description>System Label</description>
 			<label>31014</label>
-			<posx>676</posx>
-			<posy>170</posy>
+			<posx>677</posx>
+			<posy>140</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -1193,17 +1193,17 @@
 		<control type="image">
 			<description>Media Blade Image on Right</description>
 			<posx>598</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size3-right-NF.png</texture>
 			<visible>!Control.HasFocus(2) + !Control.HasFocus(1)</visible>
 		</control>
 		<control type="label">
 			<description>Media Blade Label on Right</description>
 			<label>31012</label>
-			<posx>641</posx>
-			<posy>163</posy>
+			<posx>642</posx>
+			<posy>132</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -1212,7 +1212,7 @@
 		</control>
 		<control type="image">
 			<description>Games Blade Haze Left</description>
-			<posx>-41</posx>
+			<posx>-38</posx>
 			<posy>350</posy>
 			<width>150</width>
 			<height>228</height>
@@ -1235,17 +1235,17 @@
 		<control type="image">
 			<description>XBMC Live Blade</description>
 			<posx>18</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size4-header.png</texture>
 			<visible>Control.HasFocus(1)</visible>
 		</control>
 		<control type="label">
 			<description>XBMC Live Label</description>
 			<label>31018</label>
-			<posx>79</posx>
-			<posy>155</posy>
+			<posx>80</posx>
+			<posy>120</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorBlack</textcolor>
 			<aligny>top</aligny>
@@ -1255,17 +1255,17 @@
 		<control type="image">
 			<description>System Blade</description>
 			<posx>633</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size1-right-NF.png</texture>
 			<visible>Control.HasFocus(1)</visible>
 		</control>
 		<control type="label">
 			<description>System Label</description>
 			<label>31014</label>
-			<posx>676</posx>
-			<posy>177</posy>
+			<posx>677</posx>
+			<posy>148</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -1275,17 +1275,17 @@
 		<control type="image">
 			<description>Media Blade</description>
 			<posx>598</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size2-right-NF.png</texture>
 			<visible>Control.HasFocus(1)</visible>
 		</control>
 		<control type="label">
 			<description>Media Label</description>
 			<label>31012</label>
-			<posx>641</posx>
-			<posy>170</posy>
+			<posx>642</posx>
+			<posy>140</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -1295,15 +1295,15 @@
 		<control type="button" id="1">
 			<description>Games Blade Image on Right</description>
 			<posx>563</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<label>31011</label>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
-			<textoffsetx>43</textoffsetx>
-			<textoffsety>163</textoffsety>
+			<textoffsetx>44</textoffsetx>
+			<textoffsety>182</textoffsety>
 			<angle>270</angle>
 			<onup>1</onup>
 			<ondown>1</ondown>
@@ -1341,17 +1341,17 @@
 		<control type="image">
 			<description>XBMC Live Blade</description>
 			<posx>18</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size2-left-NF.png</texture>
 			<visible>Control.HasFocus(2)</visible>
 		</control>
 		<control type="label">
 			<description>XBMC Live Label</description>
 			<label>31018</label>
-			<posx>79</posx>
-			<posy>170</posy>
+			<posx>80</posx>
+			<posy>140</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -1361,17 +1361,17 @@
 		<control type="image">
 			<description>Games Blade</description>
 			<posx>53</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size3-left-NF.png</texture>
 			<visible>Control.HasFocus(2)</visible>
 		</control>
 		<control type="label">
 			<description>Games Label</description>
 			<label>31011</label>
-			<posx>114</posx>
-			<posy>163</posy>
+			<posx>115</posx>
+			<posy>132</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -1381,15 +1381,15 @@
 		<control type="button" id="2">
 			<description>Media Blade Left</description>
 			<posx>88</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<label>31012</label>
 			<font>BladeFont</font>
 			<textcolor>TextcolorBlack</textcolor>
 			<aligny>top</aligny>
-			<textoffsetx>61</textoffsetx>
-			<textoffsety>155</textoffsety>
+			<textoffsetx>62</textoffsetx>
+			<textoffsety>170</textoffsety>
 			<angle>270</angle>
 			<onleft>2</onleft>
 			<onright>2</onright>
@@ -1405,17 +1405,17 @@
 		<control type="image">
 			<description>System Blade</description>
 			<posx>633</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size3-right-NF.png</texture>
 			<visible>Control.HasFocus(2)</visible>
 		</control>
 		<control type="label">
 			<description>System Label</description>
 			<label>31014</label>
-			<posx>676</posx>
-			<posy>163</posy>
+			<posx>677</posx>
+			<posy>132</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -1444,4 +1444,4 @@
 		</control>
 		<!-- End Media Blades -->
 	</controls>
-</window>         
+</window>

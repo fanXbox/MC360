@@ -14,11 +14,11 @@
 			<animation effect="fade" delay="450" time="100">WindowClose</animation>
 		</control>
 		<control type="group">
-			<animation effect="slide" time="250" start="700,0" end="70">WindowOpen</animation>
-			<animation effect="slide" time="250" delay="250" start="70" end="700,0">WindowClose</animation>
+			<animation effect="slide" time="250" start="700,0" end="100">WindowOpen</animation>
+			<animation effect="slide" time="250" delay="250" start="100" end="700,0">WindowClose</animation>
 			<control type="image">
 				<description>Guide Blade Background</description>
-				<posx>30</posx>
+				<posx>46</posx>
 				<posy>0</posy>
 				<width>690</width>
 				<height>576</height>
@@ -28,7 +28,7 @@
 			</control>
 			<control type="image">
 				<description>Custom Guide Blade Background</description>
-				<posx>30</posx>
+				<posx>46</posx>
 				<posy>0</posy>
 				<width>690</width>
 				<height>576</height>
@@ -39,17 +39,17 @@
 			</control>
 			<control type="image">
 				<description>Guide Blade Overlay</description>
-				<posx>128</posx>
+				<posx>118</posx>
 				<posy>0</posy>
-				<width>592</width>
+				<width>612</width>
 				<height>576</height>
 				<texture>guide-blade-overlay-tile.png</texture>
 			</control>
 			<control type="image">
 				<description>Guide Edge Overlay</description>
-				<posx>0</posx>
+				<posx>18</posx>
 				<posy>0</posy>
-				<width>128</width>
+				<width>100</width>
 				<height>576</height>
 				<texture>guide-blade-overlay-edge-right.png</texture>
 			</control>
@@ -235,7 +235,7 @@
 		</control>
 		<!-- media infos -->
 		<control type="group">
-			<posx>170</posx>
+			<posx>200</posx>
 			<posy>80</posy>
 			<animation effect="fade" delay="450" time="200">WindowOpen</animation>
 			<animation effect="fade" time="200">WindowClose</animation>
@@ -250,7 +250,7 @@
 			</control>
 			<control type="fadelabel">
 				<description>Title label</description>
-				<width>530</width>
+				<width>500</width>
 				<posx>0</posx>
 				<posy>25</posy>
 				<info>MusicPlayer.Title</info>
@@ -259,7 +259,7 @@
 			</control>
 			<control type="fadelabel">
 				<description>Album label</description>
-				<width>420</width>
+				<width>390</width>
 				<posx>0</posx>
 				<posy>55</posy>
 				<info>MusicPlayer.Album</info>
@@ -269,7 +269,7 @@
 			<control type="label" id="200">
 				<description>Scraper Label</description>
 				<width>200</width>
-				<posx>510</posx>
+				<posx>480</posx>
 				<posy>55</posy>
 				<label>-</label>
 				<align>right</align>
@@ -279,7 +279,7 @@
 				<description>Jewel CD Case Back</description>
 				<posx>0</posx>
 				<posy>80</posy>
-				<width>530</width>
+				<width>500</width>
 				<height>1</height>
 				<texture>divider.png</texture>
 			</control>
@@ -310,7 +310,7 @@
 			</control>
 		</control>
 		<control type="group">
-			<posx>160</posx>
+			<posx>190</posx>
 			<posy>170</posy>
 			<animation effect="fade" delay="450" time="200">WindowOpen</animation>
 			<animation effect="fade" time="200">WindowClose</animation>
@@ -318,7 +318,7 @@
 				<description>Jewel CD Case Back</description>
 				<posx>23</posx>
 				<posy>8</posy>
-				<width>150</width>
+				<width>115</width>
 				<height>156</height>
 				<texture>music-overlay-caseinside.png</texture>
 			</control>
@@ -326,7 +326,7 @@
 				<description>music logo</description>
 				<posx>23</posx>
 				<posy>8</posy>
-				<width>150</width>
+				<width>115</width>
 				<height>156</height>
 				<info>MusicPlayer.Cover</info>
 			</control>
@@ -334,7 +334,7 @@
 				<description>Jewel CD Case</description>
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>184</width>
+				<width>147</width>
 				<height>179</height>
 				<texture>music-overlay-cdcase.png</texture>
 			</control>
@@ -360,25 +360,25 @@
 			</control>
 			<control type="label">
 				<description>Back Label</description>
-				<posx>582</posx>
 				<posy>479</posy>
+				<width>1066</width>
+				<align>center</align>
 				<label>31027</label>
-				<align>right</align>
 				<font>font12</font>
 				<textcolor>TextcolorWhite</textcolor>
 			</control>
 			<control type="label">
 				<description>Select Label</description>
-				<posx>596</posx>
 				<posy>501</posy>
+				<width>1096</width>
+				<align>center</align>
 				<label>31024</label>
-				<align>right</align>
 				<font>font12</font>
 				<textcolor>TextcolorWhite</textcolor>
 			</control>
 			<control type="image">
 				<description>Y Button</description>
-				<posx>190</posx>
+				<posx>220</posx>
 				<posy>475</posy>
 				<include>Button-Map-Texture-Width</include>
 				<height>21</height>
@@ -386,7 +386,7 @@
 			</control>
 			<control type="label">
 				<description>Settings Label</description>
-				<posx>220</posx>
+				<posx>250</posx>
 				<posy>479</posy>
 				<label>5</label>
 				<align>left</align>
@@ -395,7 +395,7 @@
 			</control>
 			<control type="image">
 				<description>X Button</description>
-				<posx>175</posx>
+				<posx>205</posx>
 				<posy>498</posy>
 				<include>Button-Map-Texture-Width</include>
 				<height>21</height>
@@ -403,4 +403,4 @@
 			</control>
 		</control>
 	</controls>
-</window>      
+</window>

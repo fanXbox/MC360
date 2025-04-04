@@ -65,9 +65,9 @@
 		<control type="image">
 			<description>Left Blade Runner Fill-In</description>
 			<posx>-210</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>99</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>background-grey1.png</texture>
 			<animation effect="fade" end="0">WindowOpen</animation>
 			<animation effect="slide" delay="500" end="215,0" time="600">WindowClose</animation>
@@ -75,9 +75,9 @@
 		<control type="image">
 			<description>Left Blade Runner</description>
 			<posx>-111</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-left1.png</texture>
 			<animation effect="fade" end="0">WindowOpen</animation>
 			<animation effect="slide" delay="500" end="215,0" time="600">WindowClose</animation>
@@ -85,9 +85,9 @@
 		<control type="image">
 			<description>Right Blade Runner Fill-In</description>
 			<posx>833</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>92</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>background-grey1.png</texture>
 			<animation effect="fade" end="0">WindowOpen</animation>
 			<animation effect="slide" delay="500" end="-205,0" time="600">WindowClose</animation>
@@ -95,16 +95,16 @@
 		<control type="image">
 			<description>Right Blade Runner</description>
 			<posx>705</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-right.png</texture>
 			<animation effect="fade" end="0">WindowOpen</animation>
 			<animation effect="slide" delay="500" end="-205,0" time="600">WindowClose</animation>
 		</control>
 		<control type="image">
 			<description>Guide Blade Background</description>
-			<posx>0</posx>
+			<posx>-27</posx>
 			<posy>0</posy>
 			<width>417</width>
 			<height>576</height>
@@ -126,14 +126,14 @@
 			<description>Guide Edge Overlay</description>
 			<posx>318</posx>
 			<posy>0</posy>
-			<width>128</width>
+			<width>100</width>
 			<height>576</height>
 			<texture>guide-blade-overlay-edge-left.png</texture>
 			<animation effect="slide" time="250" start="-512,0">WindowOpen</animation>
 			<animation effect="slide" time="250" delay="250" end="-512,0">WindowClose</animation>
 		</control>
 		<control type="image">
-			<posx>0</posx>
+			<posx>-27</posx>
 			<posy>0</posy>
 			<width>418</width>
 			<height>576</height>
@@ -155,7 +155,7 @@
 		</control>
 		<control type="image">
 			<posx>65</posx>
-			<posy>347</posy>
+			<posy>345</posy>
 			<width>240</width>
 			<height>08</height>
 			<texture>home_logoshadow.png</texture>
@@ -176,10 +176,10 @@
 		</control>
 		<control type="image">
 			<description>B Button</description>
-			<posx>420</posx>
+			<posx>450</posx>
 			<posy>100</posy>
-			<width>300</width>
-			<height>320</height>
+			<width>240</width>
+			<height>330</height>
 			<texture>intrologo.png</texture>
 			<animation effect="fade" time="250" delay="400" start="0">WindowOpen</animation>
 			<animation effect="fade" time="250" end="0">WindowClose</animation>
@@ -209,14 +209,14 @@
 				<control type="image">
 					<posx>7</posx>
 					<posy>7</posy>
-					<width>43</width>
+					<width>34</width>
 					<height>43</height>
 					<aspectratio>stretch</aspectratio>
 					<info>ListItem.Icon</info>
 					<texture>gamercard_defaultgamerpic.png</texture>
 				</control>
 				<control type="label">
-					<posx>55</posx>
+					<posx>48</posx>
 					<posy>4</posy>
 					<width>320</width>
 					<height>22</height>
@@ -258,14 +258,14 @@
 				<control type="image">
 					<posx>7</posx>
 					<posy>7</posy>
-					<width>43</width>
+					<width>34</width>
 					<height>43</height>
 					<aspectratio>stretch</aspectratio>
 					<info>ListItem.Icon</info>
 					<texture>gamercard_defaultgamerpic.png</texture>
 				</control>
 				<control type="label">
-					<posx>55</posx>
+					<posx>48</posx>
 					<posy>4</posy>
 					<width>320</width>
 					<height>22</height>
@@ -400,10 +400,10 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>261</posx>
 			<posy>502</posy>
+			<width>420</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>right</align>
 			<font>font12</font>
 			<shadowcolor>shadow-black</shadowcolor>
 			<animation effect="fade" delay="800" time="250">WindowOpen</animation>
@@ -411,4 +411,4 @@
 		</control>
 		<!-- My version Rocky5 end -->
 	</controls>
-</window>        
+</window>

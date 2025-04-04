@@ -43,7 +43,7 @@
 			<control type="label">
 				<description>drive f: free space</description>
 				<posx>525</posx>
-				<posy>50</posy>
+				<posy>25</posy>
 				<label>$INFO[System.Freespace(F)]</label>
 				<align>right</align>
 				<font>font10</font>
@@ -51,14 +51,14 @@
 				<visible>System.HasDriveF</visible>
 			</control>
 			<control type="label">
-				<description>drive e: free space</description>
+				<description>drive g: free space</description>
 				<posx>525</posx>
 				<posy>50</posy>
-				<label>$INFO[System.Freespace(E)]</label>
+				<label>$INFO[System.Freespace(G)]</label>
 				<align>right</align>
 				<font>font10</font>
 				<shadowcolor>shadow-black</shadowcolor>
-				<visible>!System.HasDriveF</visible>
+				<visible>!System.HasDriveG</visible>
 			</control>
 			<control type="image">
 				<posx>630</posx>
@@ -340,7 +340,7 @@
 			</control>
 			<control type="label">
 				<description>Select Label</description>
-				<posx>160</posx>
+				<posx>155</posx>
 				<posy>508</posy>
 				<label>31092</label>
 				<align>left</align>
@@ -367,7 +367,7 @@
 			<control type="label">
 				<description>Advanced options Label</description>
 				<include>KeymapFont</include>
-				<posx>150</posx>
+				<posx>140</posx>
 				<posy>528</posy>
 				<label>31073</label>
 				<align>left</align>
@@ -402,10 +402,10 @@
 			<control type="label">
 				<description>Back Label</description>
 				<include>KeymapFont</include>
-				<posx>560</posx>
 				<posy>508</posy>
+				<width>1000</width>
+				<align>center</align>
 				<label>31027</label>
-				<align>right</align>
 			</control>
 			<control type="image">
 				<description>A Button</description>
@@ -418,10 +418,10 @@
 			<control type="label">
 				<description>Select Label</description>
 				<include>KeymapFont</include>
-				<posx>573</posx>
 				<posy>528</posy>
+				<width>1030</width>
+				<align>center</align>
 				<label>31024</label>
-				<align>right</align>
 			</control>
 		</control>
 		<control type="group">

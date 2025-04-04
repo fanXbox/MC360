@@ -16,7 +16,7 @@
 			<description>Guide Blade Background</description>
 			<posx>0</posx>
 			<posy>0</posy>
-			<width>548</width>
+			<width>521</width>
 			<height>576</height>
 			<visible>!Skin.String(GuidePanel)</visible>
 			<texture>background-grey.png</texture>
@@ -28,7 +28,7 @@
 		</control>
 		<control type="image">
 			<description>Custom Guide Blade Background</description>
-			<posx>0</posx>
+			<posx>-27</posx>
 			<posy>0</posy>
 			<width>548</width>
 			<height>576</height>
@@ -58,7 +58,7 @@
 			<description>Guide Edge Overlay</description>
 			<posx>450</posx>
 			<posy>0</posy>
-			<width>128</width>
+			<width>100</width>
 			<height>576</height>
 			<texture>guide-blade-overlay-edge-left.png</texture>
 			<visible>![Window.IsActive(129) | Window.IsActive(114)| Window.IsActive(128)]</visible>
@@ -72,7 +72,7 @@
 			<description>Guide Blade Background</description>
 			<posx>-132</posx>
 			<posy>0</posy>
-			<width>548</width>
+			<width>521</width>
 			<height>576</height>
 			<visible>!Skin.String(GuidePanel)</visible>
 			<texture>background-grey.png</texture>
@@ -82,7 +82,7 @@
 		</control>
 		<control type="image">
 			<description>Custom Guide Blade Background</description>
-			<posx>-132</posx>
+			<posx>-159</posx>
 			<posy>0</posy>
 			<width>548</width>
 			<height>576</height>
@@ -108,7 +108,7 @@
 			<description>Guide Edge Overlay</description>
 			<posx>318</posx>
 			<posy>0</posy>
-			<width>128</width>
+			<width>100</width>
 			<height>576</height>
 			<texture>guide-blade-overlay-edge-left.png</texture>
 			<visible>Window.IsActive(114) | Window.IsActive(128) | Window.IsActive(1122)</visible>
@@ -117,7 +117,7 @@
 		</control>
 		<control type="label">
 			<description>GamerTag Label</description>
-			<posx>394</posx>
+			<posx>376</posx>
 			<posy>200</posy>
 			<angle>270</angle>
 			<label>time</label>
@@ -134,7 +134,7 @@
 			<description>Guide Blade Background</description>
 			<posx>-60</posx>
 			<posy>0</posy>
-			<width>548</width>
+			<width>521</width>
 			<height>576</height>
 			<visible>!Skin.String(GuidePanel)</visible>
 			<texture>background-grey.png</texture>
@@ -144,7 +144,7 @@
 		</control>
 		<control type="image">
 			<description>Custom Guide Blade Background</description>
-			<posx>-60</posx>
+			<posx>-87</posx>
 			<posy>0</posy>
 			<width>548</width>
 			<height>576</height>
@@ -170,7 +170,7 @@
 			<description>Guide Edge Overlay</description>
 			<posx>390</posx>
 			<posy>0</posy>
-			<width>128</width>
+			<width>100</width>
 			<height>576</height>
 			<texture>guide-blade-overlay-edge-left.png</texture>
 			<visible>Window.IsActive(129) + !Window.IsActive(128)</visible>
@@ -179,13 +179,12 @@
 		</control>
 		<control type="label">
 			<description>GamerTag Label</description>
-			<posx>466</posx>
+			<posx>448</posx>
 			<posy>200</posy>
 			<angle>270</angle>
 			<label>time</label>
 			<include>GamerName</include>
 			<textcolor>TextcolorBlack</textcolor>
-			<shadowcolor>shadow-grey</shadowcolor>
 			<font>font14</font>
 			<animation effect="slide" time="250" end="60,0">WindowOpen</animation>
 			<animation effect="slide" time="250" delay="250" start="60,0">WindowClose</animation>
@@ -225,21 +224,22 @@
 			<posy>141</posy>
 			<width>430</width>
 			<height>36</height>
+			<texture>guide-blade-overlay-textboxbig.png</texture>
 			<!-- 			<visible>!Window.IsActive(114)</visible> -->
 			<animation effect="fade" time="100">Hidden</animation>
 			<animation effect="fade" delay="450" time="200">Visible</animation>
-			<texture border="8">guide-blade-overlay-textboxbig.png</texture>
 			<animation effect="fade" time="200" delay="300">WindowOpen</animation>
 			<animation effect="fade" time="200">WindowClose</animation>
 		</control>
 		<control type="label">
 			<description>GamerTag Label</description>
-			<posx>526</posx>
+			<posx>508</posx>
 			<posy>200</posy>
 			<angle>270</angle>
 			<label>time</label>
 			<include>GamerName</include>
 			<textcolor>TextcolorBlack</textcolor>
+			<shadowcolor>shadow-grey</shadowcolor>
 			<font>font14</font>
 			<animation effect="slide" time="300" start="-655,0">WindowOpen</animation>
 			<animation effect="slide" delay="200" time="300" end="-655,0">WindowClose</animation>
@@ -276,7 +276,7 @@
 		<control type="label" id="310">
 			<description>Edit Text</description>
 			<posx>45</posx>
-			<posy>141</posy>
+			<posy>140</posy>
 			<width>420</width>
 			<height>36</height>
 			<font>special13</font>
@@ -509,7 +509,7 @@
 			<texturenofocus>keyboard-btn-space.png</texturenofocus>
 			<texturefocus>keyboard-btn-space-focus.png</texturefocus>
 			<align>left</align>
-			<textoffsetx>33</textoffsetx>
+			<textoffsetx>30</textoffsetx>
 			<aligny>center</aligny>
 			<font>font12</font>
 			<textcolor>TextcolorBlack</textcolor>
@@ -1546,10 +1546,10 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>364</posx>
 			<posy>479</posy>
+			<width>630</width>
+			<align>center</align>
 			<label>31027</label>
-			<align>right</align>
 			<font>font12</font>
 			<visible>!Window.IsActive(129) + !Window.IsActive(1122)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
@@ -1559,10 +1559,10 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>376</posx>
 			<posy>502</posy>
+			<width>660</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>right</align>
 			<font>font12</font>
 			<visible>!Window.IsActive(129) + !Window.IsActive(1122)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
@@ -1625,7 +1625,7 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>364</posx>
+			<posx>384</posx>
 			<posy>479</posy>
 			<label>31027</label>
 			<align>right</align>
@@ -1638,7 +1638,7 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>376</posx>
+			<posx>396</posx>
 			<posy>502</posy>
 			<label>31024</label>
 			<align>right</align>
@@ -1676,4 +1676,4 @@
 			<animation effect="fade" time="150">WindowClose</animation>
 		</control>
 	</controls>
-</window>      
+</window>

@@ -5,35 +5,35 @@
 
 	<!-- Begin Overlay Images -->
 	<include name="Image-whitewash-glass-top-left">
-		<texture>bkgd-whitewash-glass-top-left.png</texture>
+		<texture>bkgd-whitewash-glass-top-left-ws.png</texture>
 	</include>
 	<include name="Image-whitewash-glass-top-middle">
 		<texture>bkgd-whitewash-glass-top-middle.png</texture>
 	</include>
 	<include name="Image-whitewash-glass-top-right">
-		<texture>bkgd-whitewash-glass-top-right.png</texture>
+		<texture>bkgd-whitewash-glass-top-right-ws.png</texture>
 	</include>
 	<include name="Image-whitewash-glass-bottom-left">
-		<texture>bkgd-whitewash-glass-bottom-left.png</texture>
+		<texture>bkgd-whitewash-glass-bottom-left-ws.png</texture>
 	</include>
 	<include name="Image-whitewash-glass-bottom-middle">
 		<texture>bkgd-whitewash-glass-bottom-middle.png</texture>
 	</include>
 	<include name="Image-whitewash-glass-bottom-right">
-		<texture>bkgd-whitewash-glass-bottom-right.png</texture>
+		<texture>bkgd-whitewash-glass-bottom-right-ws.png</texture>
 	</include>
 	<include name="Image-whitewash-overlay-left">
-		<texture>background-overlay-whitewash-left.png</texture>
+		<texture>background-overlay-whitewash-left-ws.png</texture>
 	</include>
 	<include name="Image-whitewash-overlay-middle">
-		<texture>background-overlay-whitewash-centertile.png</texture>
+		<texture>background-overlay-whitewash-centertile-ws.png</texture>
 	</include>
 	<include name="Image-whitewash-overlay-right">
-		<texture>background-overlay-whitewash-right.png</texture>
+		<texture>background-overlay-whitewash-right-ws.png</texture>
 	</include>
 	<!-- End Overlay Images -->
 	<include name="Button-Map-Texture-Width">
-		<width>21</width>
+		<width>18</width>
 	</include>
 	<!-- MC360 Custom Settings GAMECARD !-->
 	<include name="GamerName">
@@ -90,7 +90,7 @@
 	<!-- Start Player Controlcommons" -->
 	<include name="PlayerControlCommons">
 		<visible>Window.IsActive(playercontrols)</visible>
-		<visible>![Window.IsActive(favourites) | Window.IsActive(1116) | Window.IsActive(1122)]</visible>
+		<visible>![Window.IsActive(favourites) | Window.IsActive(1116) | Window.IsActive(1122)]]</visible>
 		<animation effect="slide" time="250" start="-512,0">WindowOpen</animation>
 		<animation effect="fade" time="150">WindowClose</animation>
 	</include>
@@ -335,26 +335,26 @@
 		<control type="image">
 			<description>Left Blade Runner</description>
 			<posx>-61</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-left.png</texture>
 			<animation effect="fade" end="100" condition="Window.Next(Home)">WindowClose</animation>
 		</control>
 		<control type="image">
 			<description>Right Blade Runner</description>
 			<posx>665</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-right.png</texture>
 		</control>
 		<control type="image">
 			<description>XBMC Live Blade</description>
 			<posx>-52</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size2-left-NF.png</texture>
 			<animation effect="slide" start="70,0" time="100" condition="Window.Previous(Home)">WindowOpen</animation>
 			<animation effect="slide" end="70,0" time="100" condition="Window.Next(Home)">WindowClose</animation>
@@ -362,8 +362,8 @@
 		<control type="label">
 			<description>XBMC Live Label</description>
 			<label>31018</label>
-			<posx>9</posx>
-			<posy>170</posy>
+			<posx>10</posx>
+			<posy>140</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -374,9 +374,9 @@
 		<control type="image">
 			<description>Games Blade</description>
 			<posx>-17</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size3-left-NF.png</texture>
 			<animation effect="slide" start="70,0" time="100" condition="Window.Previous(Home)">WindowOpen</animation>
 			<animation effect="slide" end="70,0" time="100" condition="Window.Next(Home)">WindowClose</animation>
@@ -384,8 +384,8 @@
 		<control type="label">
 			<description>Games Label</description>
 			<label>31011</label>
-			<posx>44</posx>
-			<posy>163</posy>
+			<posx>45</posx>
+			<posy>132</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -396,19 +396,19 @@
 		<control type="image">
 			<description>Left Blade Runner</description>
 			<posx>-61</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-left.png</texture>
 			<animation effect="fade" start="100" condition="Window.Previous(Home)">WindowOpen</animation>
 			<animation effect="fade" delay="100" end="0" condition="Window.Next(Home)">WindowClose</animation>
 		</control>
 		<control type="image">
-			<description>Media Blade Image Focus on Left 1</description>
+			<description>Media Blade Image Focus on Left</description>
 			<posx>18</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size4-header.png</texture>
 			<animation effect="slide" start="70,0" time="100" condition="Window.Previous(Home)">WindowOpen</animation>
 			<animation effect="slide" end="70,0" time="100" condition="Window.Next(Home)">WindowClose</animation>
@@ -416,8 +416,8 @@
 		<control type="label">
 			<description>Media Blade Label on Left</description>
 			<label>31012</label>
-			<posx>79</posx>
-			<posy>155</posy>
+			<posx>80</posx>
+			<posy>120</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorBlack</textcolor>
 			<aligny>top</aligny>
@@ -430,9 +430,9 @@
 			<control type="image">
 				<description>System Blade Image on Right</description>
 				<posx>668</posx>
-				<posy>0</posy>
+				<posy>-50</posy>
 				<width>80</width>
-				<height>576</height>
+				<height>676</height>
 				<texture>blades-size3-right-NF.png</texture>
 				<animation effect="slide" start="-35,0" time="100" condition="Window.Previous(Home)">WindowOpen</animation>
 				<animation effect="slide" end="-40,0" time="90" condition="Window.Next(Home)">WindowClose</animation>
@@ -440,8 +440,8 @@
 			<control type="label">
 				<description>System Blade Label on Right</description>
 				<label>31014</label>
-				<posx>711</posx>
-				<posy>163</posy>
+				<posx>712</posx>
+				<posy>132</posy>
 				<font>BladeFont</font>
 				<textcolor>TextcolorDarkGrey</textcolor>
 				<aligny>top</aligny>
@@ -453,9 +453,9 @@
 		<control type="image">
 			<description>Right Blade Runner</description>
 			<posx>665</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-right.png</texture>
 			<animation effect="fade" delay="90" end="0" time="20" condition="Window.Next(Home)">WindowClose</animation>
 		</control>
@@ -519,10 +519,10 @@
 		<control type="label">
 			<description>Select Label</description>
 			<include>KeymapFont</include>
-			<posx>563</posx>
 			<posy>528</posy>
+			<width>1030</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>right</align>
 			<animation effect="fade" time="200" condition="Window.Previous(Home)">WindowOpen</animation>
 			<animation effect="fade" end="0" condition="Window.Next(Home)">WindowClose</animation>
 		</control>
@@ -593,10 +593,10 @@
 		<control type="label">
 			<description>Back Label</description>
 			<include>KeymapFont</include>
-			<posx>550</posx>
 			<posy>508</posy>
+			<width>1000</width>
+			<align>center</align>
 			<label>31027</label>
-			<align>right</align>
 			<animation effect="fade" time="200" condition="Window.Previous(Home)">WindowOpen</animation>
 			<animation effect="fade" end="0" condition="Window.Next(Home)">WindowClose</animation>
 		</control>
@@ -748,9 +748,9 @@
 		<control type="image">
 			<description>Left Blade Runner</description>
 			<posx>-61</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-left.png</texture>
 			<animation effect="fade" end="0" time="0" condition="Window.Previous(1112)">WindowOpen</animation>
 			<animation effect="fade" delay="100" end="100" time="0" condition="Window.Next(1112)">WindowClose</animation>
@@ -758,17 +758,17 @@
 		<control type="image">
 			<description>Right Blade Runner</description>
 			<posx>665</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-right.png</texture>
 		</control>
 		<control type="image">
 			<description>XBMC Live Blade</description>
 			<posx>-17</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size3-left-NF.png</texture>
 			<animation effect="slide" end="35,0" time="100" condition="Window.Next(1112)">WindowClose</animation>
 			<animation effect="slide" start="35,0" time="100" condition="Window.Previous(1112)">WindowOpen</animation>
@@ -776,8 +776,8 @@
 		<control type="label">
 			<description>XBMC Live Label</description>
 			<label>31018</label>
-			<posx>44</posx>
-			<posy>163</posy>
+			<posx>45</posx>
+			<posy>132</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -788,9 +788,9 @@
 		<control type="image">
 			<description>Left Blade Runner</description>
 			<posx>-61</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-left.png</texture>
 			<animation effect="fade" end="100" time="0" condition="Window.Previous(1112)">WindowOpen</animation>
 			<animation effect="fade" delay="100" end="0" time="0" condition="Window.Next(1112)">WindowClose</animation>
@@ -798,9 +798,9 @@
 		<control type="image">
 			<description>Games Blade</description>
 			<posx>18</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size4-header.png</texture>
 			<animation effect="slide" end="35,0" time="100" condition="Window.Next(1112)">WindowClose</animation>
 			<animation effect="slide" start="35,0" time="100" condition="Window.Previous(1112)">WindowOpen</animation>
@@ -808,8 +808,8 @@
 		<control type="label">
 			<description>Games Label</description>
 			<label>31011</label>
-			<posx>79</posx>
-			<posy>155</posy>
+			<posx>80</posx>
+			<posy>120</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorBlack</textcolor>
 			<aligny>top</aligny>
@@ -822,9 +822,9 @@
 			<control type="image">
 				<description>System Blade Image on Right</description>
 				<posx>703</posx>
-				<posy>0</posy>
+				<posy>-50</posy>
 				<width>80</width>
-				<height>576</height>
+				<height>676</height>
 				<texture>blades-size2-right-NF.png</texture>
 				<animation effect="slide" start="-70,0" time="100" condition="Window.Previous(1112)">WindowOpen</animation>
 				<animation effect="slide" end="-75,0" time="90" condition="Window.Next(1112)">WindowClose</animation>
@@ -832,8 +832,8 @@
 			<control type="label">
 				<description>System Blade Label on Right</description>
 				<label>31014</label>
-				<posx>746</posx>
-				<posy>170</posy>
+				<posx>747</posx>
+				<posy>140</posy>
 				<font>BladeFont</font>
 				<textcolor>TextcolorDarkGrey</textcolor>
 				<aligny>top</aligny>
@@ -845,9 +845,9 @@
 		<control type="image">
 			<description>Media Blade Image on Right</description>
 			<posx>668</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size3-right-NF.png</texture>
 			<animation effect="slide" start="-70,0" time="100" condition="Window.Previous(1112)">WindowOpen</animation>
 			<animation effect="slide" end="-70,0" time="100" condition="Window.Next(1112)">WindowClose</animation>
@@ -855,8 +855,8 @@
 		<control type="label">
 			<description>Media Blade Label on Right</description>
 			<label>31012</label>
-			<posx>711</posx>
-			<posy>163</posy>
+			<posx>712</posx>
+			<posy>132</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -867,9 +867,9 @@
 		<control type="image">
 			<description>Right Blade Runner</description>
 			<posx>665</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-right.png</texture>
 			<animation effect="fade" delay="90" end="0" time="20" condition="Window.Next(1112)">WindowClose</animation>
 		</control>
@@ -964,10 +964,10 @@
 		<control type="label">
 			<description>Back Label</description>
 			<include>KeymapFont</include>
-			<posx>550</posx>
 			<posy>508</posy>
+			<width>1000</width>
+			<align>center</align>
 			<label>31027</label>
-			<align>right</align>
 			<animation effect="fade" time="200" condition="Window.Previous(1112)">WindowOpen</animation>
 			<animation effect="fade" end="0" condition="Window.Next(1112)">WindowClose</animation>
 		</control>
@@ -984,10 +984,10 @@
 		<control type="label">
 			<description>Select Label</description>
 			<include>KeymapFont</include>
-			<posx>563</posx>
 			<posy>528</posy>
+			<width>1030</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>right</align>
 			<animation effect="fade" delay="100" time="100" condition="Window.Previous(1112)">WindowOpen</animation>
 			<animation effect="fade" end="0" condition="Window.Next(1112)">WindowClose</animation>
 		</control>
@@ -1062,10 +1062,10 @@
 		<control type="label">
 			<description>Back Label</description>
 			<include>KeymapFont</include>
-			<posx>550</posx>
 			<posy>508</posy>
+			<width>1000</width>
+			<align>center</align>
 			<label>31027</label>
-			<align>right</align>
 			<animation effect="fade" time="200" condition="Window.Previous(1112)">WindowOpen</animation>
 			<animation effect="fade" end="0" condition="Window.Next(1112)">WindowClose</animation>
 		</control>
@@ -1082,10 +1082,10 @@
 		<control type="label">
 			<description>Select Label</description>
 			<include>KeymapFont</include>
-			<posx>563</posx>
 			<posy>528</posy>
+			<width>1030</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>right</align>
 			<animation effect="fade" delay="100" time="100" condition="Window.Previous(1112)">WindowOpen</animation>
 			<animation effect="fade" end="0" condition="Window.Next(1112)">WindowClose</animation>
 		</control>
@@ -1220,32 +1220,32 @@
 		<control type="image">
 			<description>Left Blade Runner</description>
 			<posx>-61</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-left.png</texture>
 		</control>
 		<control type="image">
 			<description>Right Blade Runner</description>
 			<posx>665</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-right.png</texture>
 		</control>
 		<control type="image">
 			<description>XBMC Live Blade</description>
 			<posx>18</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size4-header.png</texture>
 		</control>
 		<control type="label">
 			<description>XBMC Live Label</description>
 			<label>31018</label>
-			<posx>79</posx>
-			<posy>155</posy>
+			<posx>80</posx>
+			<posy>120</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorBlack</textcolor>
 			<aligny>top</aligny>
@@ -1256,9 +1256,9 @@
 			<control type="image">
 				<description>System Blade</description>
 				<posx>738</posx>
-				<posy>0</posy>
+				<posy>-50</posy>
 				<width>80</width>
-				<height>576</height>
+				<height>676</height>
 				<texture>blades-size1-right-NF.png</texture>
 				<animation effect="slide" end="-110,0" time="90" condition="Window.Next(1114)">WindowClose</animation>
 				<animation effect="slide" start="-105,0" time="100" condition="Window.Previous(1114)">WindowOpen</animation>
@@ -1266,8 +1266,8 @@
 			<control type="label">
 				<description>System Label</description>
 				<label>31014</label>
-				<posx>781</posx>
-				<posy>177</posy>
+				<posx>782</posx>
+				<posy>148</posy>
 				<font>BladeFont</font>
 				<textcolor>TextcolorDarkGrey</textcolor>
 				<aligny>top</aligny>
@@ -1279,9 +1279,9 @@
 		<control type="image">
 			<description>Media Blade</description>
 			<posx>703</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size2-right-NF.png</texture>
 			<animation effect="slide" end="-105,0" time="100" condition="Window.Next(1114)">WindowClose</animation>
 			<animation effect="slide" start="-105,0" time="100" condition="Window.Previous(1114)">WindowOpen</animation>
@@ -1289,8 +1289,8 @@
 		<control type="label">
 			<description>Media Label</description>
 			<label>31012</label>
-			<posx>746</posx>
-			<posy>170</posy>
+			<posx>747</posx>
+			<posy>140</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -1301,9 +1301,9 @@
 		<control type="image">
 			<description>Games Blade Image on Right</description>
 			<posx>668</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size3-right-NF.png</texture>
 			<animation effect="slide" end="-105,0" time="100" condition="Window.Next(1114)">WindowClose</animation>
 			<animation effect="slide" start="-105,0" time="100" condition="Window.Previous(1114)">WindowOpen</animation>
@@ -1311,8 +1311,8 @@
 		<control type="label">
 			<description>Games Blade Label on Right</description>
 			<label>31011</label>
-			<posx>711</posx>
-			<posy>163</posy>
+			<posx>712</posx>
+			<posy>132</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -1323,9 +1323,9 @@
 		<control type="image">
 			<description>Right Blade Runner</description>
 			<posx>665</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-right.png</texture>
 			<animation effect="fade" delay="90" end="0" time="20" condition="Window.Next(1114)">WindowClose</animation>
 		</control>
@@ -1479,9 +1479,9 @@
 		<control type="image">
 			<description>Left Blade Runner</description>
 			<posx>-61</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-left.png</texture>
 			<animation effect="fade" end="0" condition="Window.Previous(settings)">WindowOpen</animation>
 			<animation effect="fade" end="100" delay="450" condition="Window.Next(settings)">WindowClose</animation>
@@ -1489,17 +1489,17 @@
 		<control type="image">
 			<description>Right Blade Runner</description>
 			<posx>665</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-right.png</texture>
 		</control>
 		<control type="image">
 			<description>XBMC Live Blade</description>
 			<posx>-87</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size1-left-NF.png</texture>
 			<animation effect="slide" start="105,0" time="100" condition="Window.Previous(settings)">WindowOpen</animation>
 			<animation effect="slide" end="105,0" time="100" delay="350" condition="Window.Next(settings)">WindowClose</animation>
@@ -1507,8 +1507,8 @@
 		<control type="label">
 			<description>XBMC Live Label</description>
 			<label>31018</label>
-			<posx>-26</posx>
-			<posy>177</posy>
+			<posx>-25</posx>
+			<posy>148</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -1519,9 +1519,9 @@
 		<control type="image">
 			<description>Games Blade</description>
 			<posx>-52</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size2-left-NF.png</texture>
 			<animation effect="slide" start="105,0" time="100" condition="Window.Previous(settings)">WindowOpen</animation>
 			<animation effect="slide" end="105,0" time="100" delay="350" condition="Window.Next(settings)">WindowClose</animation>
@@ -1529,8 +1529,8 @@
 		<control type="label">
 			<description>Games Label</description>
 			<label>31011</label>
-			<posx>9</posx>
-			<posy>170</posy>
+			<posx>10</posx>
+			<posy>140</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -1539,11 +1539,11 @@
 			<animation effect="slide" end="105,0" time="100" delay="350" condition="Window.Next(settings)">WindowClose</animation>
 		</control>
 		<control type="image">
-			<description>Media Blade Image Focus on Left</description>
+			<description>Media Blade</description>
 			<posx>-17</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size3-left-NF.png</texture>
 			<animation effect="slide" start="105,0" time="100" condition="Window.Previous(settings)">WindowOpen</animation>
 			<animation effect="slide" end="105,0" time="100" delay="350" condition="Window.Next(settings)">WindowClose</animation>
@@ -1551,8 +1551,8 @@
 		<control type="label">
 			<description>Media Blade Label on Left</description>
 			<label>31012</label>
-			<posx>44</posx>
-			<posy>163</posy>
+			<posx>45</posx>
+			<posy>132</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorDarkGrey</textcolor>
 			<aligny>top</aligny>
@@ -1573,9 +1573,9 @@
 		<control type="image">
 			<description>System Blade Image Focus on Left</description>
 			<posx>18</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size4-header.png</texture>
 			<animation effect="slide" start="105,0" time="100" condition="Window.Previous(settings)">WindowOpen</animation>
 			<animation effect="slide" end="105,0" time="100" delay="350" condition="Window.Next(settings)">WindowClose</animation>
@@ -1583,8 +1583,8 @@
 		<control type="label">
 			<description>System Blade Label on Left</description>
 			<label>31014</label>
-			<posx>79</posx>
-			<posy>155</posy>
+			<posx>80</posx>
+			<posy>120</posy>
 			<font>BladeFont</font>
 			<textcolor>TextcolorBlack</textcolor>
 			<aligny>top</aligny>
@@ -1883,9 +1883,9 @@
 		<control type="image">
 			<description>Left Blade Runner</description>
 			<posx>-156</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-left.png</texture>
 			<animation effect="slide" start="95,0" time="100" condition="![Window.Previous(fullscreenvideo) | Window.Previous(visualisation)]">WindowOpen</animation>
 			<animation effect="slide" end="95,0" time="100" delay="350" condition="![Window.Next(fullscreenvideo) | Window.Next(visualisation)]">WindowClose</animation>
@@ -1893,9 +1893,9 @@
 		<control type="image">
 			<description>Right Blade Runner</description>
 			<posx>760</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-right.png</texture>
 			<animation effect="slide" start="-95,0" time="100" condition="![Window.Previous(fullscreenvideo) | Window.Previous(visualisation)]">WindowOpen</animation>
 			<animation effect="slide" end="-95,0" time="100" delay="350" condition="![Window.Next(fullscreenvideo) | Window.Next(visualisation)]">WindowClose</animation>
@@ -1903,9 +1903,9 @@
 		<control type="image">
 			<description>System Blade Image Focus on Left</description>
 			<posx>-77</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>80</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-size4-header.png</texture>
 			<animation effect="slide" start="95,0" time="100" condition="![Window.Previous(fullscreenvideo) | Window.Previous(visualisation)]">WindowOpen</animation>
 			<animation effect="slide" end="95,0" time="100" delay="350" condition="![Window.Next(fullscreenvideo) | Window.Next(visualisation)]">WindowClose</animation>
@@ -1913,16 +1913,16 @@
 	</include>
 	<!-- Begin Home Blades Button Animations -->
 	<include name="Sub-Common-Icon-Width">
-		<width>28</width>
+		<width>23</width>
 	</include>
 	<include name="Sub-Common-Button-TextX">
-		<posx>132</posx>
+		<posx>127</posx>
 	</include>
 	<include name="Sub-Blade-Button-Commons">
-		<width>28</width>
+		<width>23</width>
 		<height>28</height>
 		<aligny>center</aligny>
-		<textoffsetx>34</textoffsetx>
+		<textoffsetx>29</textoffsetx>
 		<textcolor>TextcolorBlack</textcolor>
 		<shadowcolor>shadow-grey</shadowcolor>
 		<font>font13</font>
@@ -1930,10 +1930,10 @@
 		<animation effect="slide" end="-3,0" time="275" reversible="false">focus</animation>
 	</include>
 	<include name="Big-Home-Button-Commons">
-		<width>60</width>
+		<width>50</width>
 		<height>60</height>
 		<aligny>center</aligny>
-		<textoffsetx>65</textoffsetx>
+		<textoffsetx>55</textoffsetx>
 		<textcolor>TextcolorBlack</textcolor>
 		<shadowcolor>shadow-grey</shadowcolor>
 		<font>font14</font>
@@ -1942,10 +1942,10 @@
 		<animation effect="slide" end="-3,0" time="275" reversible="false">focus</animation>
 	</include>
 	<include name="Home-Button-Commons">
-		<width>30</width>
+		<width>25</width>
 		<height>30</height>
 		<aligny>center</aligny>
-		<textoffsetx>45</textoffsetx>
+		<textoffsetx>40</textoffsetx>
 		<textcolor>TextcolorBlack</textcolor>
 		<shadowcolor>shadow-grey</shadowcolor>
 		<font>font14</font>
@@ -2003,7 +2003,7 @@
 		</control>
 		<control type="image">
 			<description>Guide Blade Background</description>
-			<posx>300</posx>
+			<posx>316</posx>
 			<posy>0</posy>
 			<width>512</width>
 			<height>576</height>
@@ -2015,7 +2015,7 @@
 		</control>
 		<control type="image">
 			<description>Custom Guide Blade Background</description>
-			<posx>300</posx>
+			<posx>316</posx>
 			<posy>0</posy>
 			<width>512</width>
 			<height>576</height>
@@ -2028,7 +2028,7 @@
 		</control>
 		<control type="image">
 			<description>Guide Blade Overlay</description>
-			<posx>398</posx>
+			<posx>388</posx>
 			<posy>0</posy>
 			<width>400</width>
 			<height>576</height>
@@ -2038,9 +2038,9 @@
 		</control>
 		<control type="image">
 			<description>Guide Edge Overlay</description>
-			<posx>270</posx>
+			<posx>288</posx>
 			<posy>0</posy>
-			<width>128</width>
+			<width>100</width>
 			<height>576</height>
 			<texture>guide-blade-overlay-edge-right.png</texture>
 			<animation effect="slide" time="250" start="512,0">WindowOpen</animation>
@@ -2088,10 +2088,10 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>582</posx>
 			<posy>479</posy>
+			<width>1066</width>
+			<align>center</align>
 			<label>31027</label>
-			<align>right</align>
 			<font>font12</font>
 			<textcolor>TextcolorWhite</textcolor>
 			<animation effect="slide" time="250" start="512,0">WindowOpen</animation>
@@ -2099,10 +2099,10 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>596</posx>
 			<posy>501</posy>
+			<width>1096</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>right</align>
 			<font>font12</font>
 			<textcolor>TextcolorWhite</textcolor>
 			<animation effect="slide" time="250" start="512,0">WindowOpen</animation>
@@ -2112,7 +2112,7 @@
 	<include name="InfoDialogs">
 		<control type="image">
 			<description>Guide Blade Background</description>
-			<posx>30</posx>
+			<posx>46</posx>
 			<posy>0</posy>
 			<width>690</width>
 			<height>576</height>
@@ -2121,7 +2121,7 @@
 		</control>
 		<control type="image">
 			<description>Custom Guide Blade Background</description>
-			<posx>30</posx>
+			<posx>46</posx>
 			<posy>0</posy>
 			<width>690</width>
 			<height>576</height>
@@ -2131,17 +2131,17 @@
 		</control>
 		<control type="image">
 			<description>Guide Blade Overlay</description>
-			<posx>128</posx>
+			<posx>118</posx>
 			<posy>0</posy>
-			<width>592</width>
+			<width>612</width>
 			<height>576</height>
 			<texture>guide-blade-overlay-tile.png</texture>
 		</control>
 		<control type="image">
 			<description>Guide Edge Overlay</description>
-			<posx>0</posx>
+			<posx>18</posx>
 			<posy>0</posy>
-			<width>128</width>
+			<width>100</width>
 			<height>576</height>
 			<texture>guide-blade-overlay-edge-right.png</texture>
 		</control>
@@ -2179,7 +2179,7 @@
 		</control>
 		<control type="image">
 			<description>Guide Blade Background</description>
-			<posx>230</posx>
+			<posx>246</posx>
 			<posy>0</posy>
 			<width>512</width>
 			<height>576</height>
@@ -2191,7 +2191,7 @@
 		</control>
 		<control type="image">
 			<description>Custom Guide Blade Background</description>
-			<posx>230</posx>
+			<posx>246</posx>
 			<posy>0</posy>
 			<width>512</width>
 			<height>576</height>
@@ -2203,9 +2203,9 @@
 		</control>
 		<control type="image">
 			<description>Guide Blade Overlay</description>
-			<posx>328</posx>
+			<posx>318</posx>
 			<posy>0</posy>
-			<width>400</width>
+			<width>420</width>
 			<height>576</height>
 			<colordiffuse>EEFFFFFF</colordiffuse>
 			<texture>guide-blade-overlay-tile.png</texture>
@@ -2214,9 +2214,9 @@
 		</control>
 		<control type="image">
 			<description>Guide Edge Overlay</description>
-			<posx>200</posx>
+			<posx>218</posx>
 			<posy>0</posy>
-			<width>128</width>
+			<width>100</width>
 			<height>576</height>
 			<colordiffuse>EEFFFFFF</colordiffuse>
 			<texture>guide-blade-overlay-edge-right.png</texture>
@@ -2265,10 +2265,10 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>582</posx>
 			<posy>479</posy>
+			<width>1066</width>
+			<align>center</align>
 			<label>31027</label>
-			<align>right</align>
 			<font>font12</font>
 			<textcolor>TextcolorWhite</textcolor>
 			<animation effect="slide" time="250" start="512,0">WindowOpen</animation>
@@ -2276,10 +2276,10 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>596</posx>
 			<posy>501</posy>
+			<width>1096</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>right</align>
 			<font>font12</font>
 			<textcolor>TextcolorWhite</textcolor>
 			<animation effect="slide" time="250" start="512,0">WindowOpen</animation>
@@ -2319,9 +2319,9 @@
 		<control type="image">
 			<description>Left Blade Runner Fill-In</description>
 			<posx>-215</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>104</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>background-grey1.png</texture>
 			<animation effect="fade" end="0">WindowOpen</animation>
 			<animation effect="slide" end="215,0" time="500" condition="Window.Next(1200)">WindowClose</animation>
@@ -2329,9 +2329,9 @@
 		<control type="image">
 			<description>Left Blade Runner</description>
 			<posx>-111</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-left1.png</texture>
 			<animation effect="fade" end="0">WindowOpen</animation>
 			<animation effect="slide" end="215,0" time="500" condition="Window.Next(1200)">WindowClose</animation>
@@ -2339,9 +2339,9 @@
 		<control type="image">
 			<description>Right Blade Runner Fill-In</description>
 			<posx>843</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>92</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>background-grey1.png</texture>
 			<animation effect="fade" end="0">WindowOpen</animation>
 			<animation effect="slide" end="-215,0" time="500" condition="Window.Next(1200)">WindowClose</animation>
@@ -2349,9 +2349,9 @@
 		<control type="image">
 			<description>Right Blade Runner</description>
 			<posx>715</posx>
-			<posy>0</posy>
+			<posy>-50</posy>
 			<width>128</width>
-			<height>576</height>
+			<height>676</height>
 			<texture>blades-runner-right.png</texture>
 			<animation effect="fade" end="0">WindowOpen</animation>
 			<animation effect="slide" end="-215,0" time="500" condition="Window.Next(1200)">WindowClose</animation>
@@ -2360,9 +2360,9 @@
 	<include name="ListItemThumb">
 		<control type="image">
 			<description>ListItemsThumbs/Cover overlay image</description>
-			<posx>100</posx>
+			<posx>115</posx>
 			<posy>290</posy>
-			<width>172</width>
+			<width>135</width>
 			<height>172</height>
 			<texture border="10">thumb-nofocus.png</texture>
 			<visible>Control.IsVisible(50) | Control.IsVisible(51) | Control.IsVisible(57)</visible>
@@ -2374,9 +2374,9 @@
 		</control>
 		<control type="image">
 			<description>ListItemsThumbs</description>
-			<posx>111</posx>
+			<posx>123</posx>
 			<posy>301</posy>
-			<width>150</width>
+			<width>120</width>
 			<height>150</height>
 			<texture>defaultAlbumCover.png</texture>
 			<info>ListItem.Icon</info>
@@ -2390,9 +2390,9 @@
 		</control>
 		<control type="image">
 			<description>ListItemsThumbs Overlay</description>
-			<posx>211</posx>
+			<posx>205</posx>
 			<posy>401</posy>
-			<width>50</width>
+			<width>40</width>
 			<height>50</height>
 			<info>ListItem.overlay</info>
 			<aspectratio>keep</aspectratio>
@@ -2407,9 +2407,9 @@
 	<include name="NowPlayingItemThumb">
 		<control type="image">
 			<description>Cover Underlay image</description>
-			<posx>100</posx>
+			<posx>115</posx>
 			<posy>290</posy>
-			<width>172</width>
+			<width>135</width>
 			<height>172</height>
 			<texture border="10">thumb-nofocus.png</texture>
 			<visible>!Skin.HasSetting(ListMusicThumb)</visible>
@@ -2421,9 +2421,9 @@
 		</control>
 		<control type="image">
 			<description>Music Cover</description>
-			<posx>111</posx>
+			<posx>123</posx>
 			<posy>301</posy>
-			<width>150</width>
+			<width>120</width>
 			<height>150</height>
 			<texture>defaultAlbumCover.png</texture>
 			<aspectratio>keep</aspectratio>
@@ -2451,4 +2451,4 @@
 			<animation effect="fade" time="200">Hidden</animation>
 		</control>
 	</include>
-</includes>          
+</includes>

@@ -15,7 +15,7 @@
 		</control>
 		<control type="image">
 			<description>Guide Blade Background</description>
-			<posx>-132</posx>
+			<posx>-159</posx>
 			<posy>0</posy>
 			<width>548</width>
 			<height>576</height>
@@ -26,7 +26,7 @@
 		</control>
 		<control type="image">
 			<description>Custom Guide Blade Background</description>
-			<posx>-132</posx>
+			<posx>-159</posx>
 			<posy>0</posy>
 			<width>548</width>
 			<height>576</height>
@@ -52,7 +52,7 @@
 			<description>Guide Edge Overlay</description>
 			<posx>318</posx>
 			<posy>0</posy>
-			<width>128</width>
+			<width>100</width>
 			<height>576</height>
 			<texture>guide-blade-overlay-edge-left.png</texture>
 			<visible>![Window.IsActive(1120) | Window.IsActive(1121)  | Window.IsActive(1122) | [Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)]]</visible>
@@ -61,7 +61,7 @@
 		</control>
 		<control type="label">
 			<description>GamerTag Label</description>
-			<posx>394</posx>
+			<posx>376</posx>
 			<posy>200</posy>
 			<angle>270</angle>
 			<include>GamerName</include>
@@ -75,7 +75,7 @@
 		<!-- Use this when coming from dialogmediasource.xml -->
 		<control type="image">
 			<description>Guide Blade Background</description>
-			<posx>-132</posx>
+			<posx>-159</posx>
 			<posy>0</posy>
 			<width>548</width>
 			<height>576</height>
@@ -87,7 +87,7 @@
 		</control>
 		<control type="image">
 			<description>Custom Guide Blade Background</description>
-			<posx>-132</posx>
+			<posx>-159</posx>
 			<posy>0</posy>
 			<width>548</width>
 			<height>576</height>
@@ -100,9 +100,9 @@
 		</control>
 		<control type="image">
 			<description>Guide Blade Overlay</description>
-			<posx>-71</posx>
+			<posx>-72</posx>
 			<posy>0</posy>
-			<width>389</width>
+			<width>390</width>
 			<height>576</height>
 			<texture>guide-blade-overlay-tile.png</texture>
 			<visible>[Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)] + !Window.IsActive(128)</visible>
@@ -113,7 +113,7 @@
 			<description>Guide Edge Overlay</description>
 			<posx>318</posx>
 			<posy>0</posy>
-			<width>128</width>
+			<width>100</width>
 			<height>576</height>
 			<texture>guide-blade-overlay-edge-left.png</texture>
 			<visible>[Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)] + !Window.IsActive(128)</visible>
@@ -122,7 +122,7 @@
 		</control>
 		<control type="label">
 			<description>GamerTag Label</description>
-			<posx>466</posx>
+			<posx>448</posx>
 			<posy>200</posy>
 			<angle>270</angle>
 			<include>GamerName</include>
@@ -136,7 +136,7 @@
 		<!-- Use this when coming from dialogNetwork.xml -->
 		<control type="image">
 			<description>Guide Blade Background</description>
-			<posx>-132</posx>
+			<posx>-159</posx>
 			<posy>0</posy>
 			<width>548</width>
 			<height>576</height>
@@ -145,7 +145,7 @@
 		</control>
 		<control type="image">
 			<description>Custom Guide Blade Background</description>
-			<posx>-132</posx>
+			<posx>-159</posx>
 			<posy>0</posy>
 			<width>548</width>
 			<height>576</height>
@@ -167,14 +167,14 @@
 			<description>Guide Edge Overlay</description>
 			<posx>318</posx>
 			<posy>0</posy>
-			<width>128</width>
+			<width>100</width>
 			<height>576</height>
 			<texture>guide-blade-overlay-edge-left.png</texture>
 			<visible>Window.IsActive(128)</visible>
 		</control>
 		<control type="label">
 			<description>GamerTag Label</description>
-			<posx>394</posx>
+			<posx>376</posx>
 			<posy>200</posy>
 			<angle>270</angle>
 			<label>time</label>
@@ -462,10 +462,10 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>249</posx>
 			<posy>479</posy>
+			<width>390</width>
+			<align>center</align>
 			<label>31027</label>
-			<align>left</align>
 			<font>font12</font>
 			<visible>Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
@@ -475,10 +475,10 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>261</posx>
 			<posy>502</posy>
+			<width>420</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>left</align>
 			<font>font12</font>
 			<visible>Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
@@ -532,10 +532,10 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>249</posx>
 			<posy>479</posy>
+			<width>390</width>
+			<align>center</align>
 			<label>31027</label>
-			<align>left</align>
 			<font>font12</font>
 			<visible>![Window.IsActive(1120) | Window.IsActive(1121)  | Window.IsActive(1122) | [Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)]]</visible>
 			<animation effect="slide" time="250" start="-512,0">WindowOpen</animation>
@@ -543,10 +543,10 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>261</posx>
 			<posy>502</posy>
+			<width>420</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>left</align>
 			<font>font12</font>
 			<visible>![Window.IsActive(1120) | Window.IsActive(1121)  | Window.IsActive(1122) | [Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)]]</visible>
 			<animation effect="slide" time="250" start="-512,0">WindowOpen</animation>
@@ -637,10 +637,10 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>249</posx>
 			<posy>479</posy>
+			<width>390</width>
+			<align>center</align>
 			<label>31027</label>
-			<align>left</align>
 			<font>font12</font>
 			<visible>[Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)] + !Window.IsActive(playercontrols) + !Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
@@ -650,10 +650,10 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>261</posx>
 			<posy>502</posy>
+			<width>420</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>left</align>
 			<font>font12</font>
 			<visible>[Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)] + !Window.IsActive(playercontrols) + !Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
@@ -716,10 +716,10 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>249</posx>
 			<posy>479</posy>
+			<width>390</width>
+			<align>center</align>
 			<label>31027</label>
-			<align>left</align>
 			<font>font12</font>
 			<visible>[Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)] + Window.IsActive(playercontrols) + !Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
@@ -729,10 +729,10 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>261</posx>
 			<posy>502</posy>
+			<width>420</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>left</align>
 			<font>font12</font>
 			<visible>[Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)] + Window.IsActive(playercontrols) + !Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
@@ -741,4 +741,4 @@
 			<animation effect="fade" time="150">WindowClose</animation>
 		</control>
 	</controls>
-</window>        
+</window>

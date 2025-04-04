@@ -13,7 +13,7 @@
 		</control>
 		<control type="image">
 			<description>Guide Blade Background</description>
-			<posx>0</posx>
+			<posx>-27</posx>
 			<posy>0</posy>
 			<width>548</width>
 			<height>576</height>
@@ -24,7 +24,7 @@
 		</control>
 		<control type="image">
 			<description>Custom Guide Blade Background</description>
-			<posx>0</posx>
+			<posx>-27</posx>
 			<posy>0</posy>
 			<width>548</width>
 			<height>576</height>
@@ -47,7 +47,7 @@
 			<description>Guide Edge Overlay</description>
 			<posx>450</posx>
 			<posy>0</posy>
-			<width>128</width>
+			<width>100</width>
 			<height>576</height>
 			<texture>guide-blade-overlay-edge-left.png</texture>
 			<animation effect="slide" time="250" start="-655,0">WindowOpen</animation>
@@ -55,7 +55,7 @@
 		</control>
 		<control type="label">
 			<description>GamerTag Label</description>
-			<posx>528</posx>
+			<posx>510</posx>
 			<posy>200</posy>
 			<angle>270</angle>
 			<label>time</label>
@@ -139,23 +139,23 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>364</posx>
 			<posy>479</posy>
+			<width>630</width>
+			<align>center</align>
 			<label>31027</label>
-			<align>right</align>
 			<font>font12</font>
 			<animation effect="slide" time="250" start="-655,0">WindowOpen</animation>
 			<animation effect="slide" time="250" delay="250" end="-655,0">WindowClose</animation>
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>376</posx>
 			<posy>502</posy>
+			<width>660</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>right</align>
 			<font>font12</font>
 			<animation effect="slide" time="250" start="-655,0">WindowOpen</animation>
 			<animation effect="slide" time="250" delay="250" end="-655,0">WindowClose</animation>
 		</control>
 	</controls>
-</window>    
+</window>

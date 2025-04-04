@@ -334,10 +334,10 @@
 			<control type="label">
 				<description>Back Label</description>
 				<include>KeymapFont</include>
-				<posx>550</posx>
 				<posy>508</posy>
+				<width>1000</width>
+				<align>center</align>
 				<label>31027</label>
-				<align>right</align>
 			</control>
 			<control type="image">
 				<description>A Button</description>
@@ -350,10 +350,10 @@
 			<control type="label">
 				<description>Select Label</description>
 				<include>KeymapFont</include>
-				<posx>563</posx>
 				<posy>528</posy>
+				<width>1030</width>
+				<align>center</align>
 				<label>31024</label>
-				<align>right</align>
 			</control>
 		</control>
 		<include>SubtoFullCommonsBlades</include>

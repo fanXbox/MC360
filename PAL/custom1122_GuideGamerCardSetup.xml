@@ -18,7 +18,7 @@
 				<description>Guide Blade Background</description>
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>417</width>
+				<width>390</width>
 				<height>576</height>
 				<texture>background-grey.png</texture>
 				<visible>!Skin.String(GuidePanel)</visible>
@@ -27,7 +27,7 @@
 			</control>
 			<control type="image">
 				<description>Custom Guide Blade Background</description>
-				<posx>-132</posx>
+				<posx>-156</posx>
 				<posy>0</posy>
 				<width>548</width>
 				<height>576</height>
@@ -51,7 +51,7 @@
 				<description>Guide Edge Overlay</description>
 				<posx>318</posx>
 				<posy>0</posy>
-				<width>128</width>
+				<width>100</width>
 				<height>576</height>
 				<texture>guide-blade-overlay-edge-left.png</texture>
 				<animation effect="slide" time="250" start="-512,0">WindowOpen</animation>
@@ -59,7 +59,7 @@
 			</control>
 			<control type="label">
 				<description>GamerTag Label</description>
-				<posx>394</posx>
+				<posx>376</posx>
 				<posy>200</posy>
 				<angle>270</angle>
 				<include>GamerName</include>
@@ -111,8 +111,9 @@
 			</control>
 			<control type="label">
 				<description>Back Label</description>
-				<posx>249</posx>
 				<posy>479</posy>
+				<width>390</width>
+				<align>center</align>
 				<label>31027</label>
 				<align>right</align>
 				<font>font12</font>
@@ -122,10 +123,10 @@
 			</control>
 			<control type="label">
 				<description>Select Label</description>
-				<posx>261</posx>
 				<posy>502</posy>
+				<width>420</width>
+				<align>center</align>
 				<label>31024</label>
-				<align>right</align>
 				<font>font12</font>
 				<shadowcolor>shadow-black</shadowcolor>
 				<animation effect="slide" time="250" start="-512,0">WindowOpen</animation>

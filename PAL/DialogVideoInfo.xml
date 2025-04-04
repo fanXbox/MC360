@@ -14,7 +14,7 @@
 		</control>
 		<control type="image">
 			<description>Guide Blade Background</description>
-			<posx>30</posx>
+			<posx>56</posx>
 			<posy>0</posy>
 			<width>690</width>
 			<height>576</height>
@@ -25,7 +25,7 @@
 		</control>
 		<control type="image">
 			<description>Custom Guide Blade Background</description>
-			<posx>30</posx>
+			<posx>56</posx>
 			<posy>0</posy>
 			<width>690</width>
 			<height>576</height>
@@ -47,9 +47,9 @@
 		</control>
 		<control type="image">
 			<description>Guide Edge Overlay</description>
-			<posx>0</posx>
+			<posx>28</posx>
 			<posy>0</posy>
-			<width>128</width>
+			<width>100</width>
 			<height>576</height>
 			<texture>guide-blade-overlay-edge-right.png</texture>
 			<animation effect="slide" time="250" start="212,0">WindowOpen</animation>
@@ -97,10 +97,10 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>559</posx>
 			<posy>479</posy>
+			<width>1030</width>
+			<align>center</align>
 			<label>31027</label>
-			<align>right</align>
 			<font>font12</font>
 			<textcolor>TextcolorWhite</textcolor>
 			<animation effect="slide" time="250" start="212,0">WindowOpen</animation>
@@ -108,10 +108,10 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>574</posx>
 			<posy>501</posy>
+			<width>1060</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>right</align>
 			<font>font12</font>
 			<textcolor>TextcolorWhite</textcolor>
 			<animation effect="slide" time="250" start="212,0">WindowOpen</animation>
@@ -119,7 +119,7 @@
 		</control>
 		<control type="label" id="1">
 			<description>Movie & General description label</description>
-			<posx>80</posx>
+			<posx>94</posx>
 			<posy>200</posy>
 			<align>left</align>
 			<label>10524</label>
@@ -133,7 +133,7 @@
 		</control>
 		<control type="label" id="1">
 			<description>TV Show description label</description>
-			<posx>80</posx>
+			<posx>94</posx>
 			<posy>200</posy>
 			<align>left</align>
 			<label>20351</label>
@@ -147,7 +147,7 @@
 		</control>
 		<control type="label" id="1">
 			<description>Episode description label</description>
-			<posx>80</posx>
+			<posx>94</posx>
 			<posy>200</posy>
 			<align>left</align>
 			<label>20352</label>
@@ -161,7 +161,7 @@
 		</control>
 		<control type="label" id="1">
 			<description>Music Video description label</description>
-			<posx>80</posx>
+			<posx>94</posx>
 			<posy>180</posy>
 			<align>left</align>
 			<label>20393</label>
