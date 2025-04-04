@@ -402,10 +402,10 @@
 			</control>
 			<control type="label">
 				<description>Back Label</description>
-				<posx>269</posx>
 				<posy>479</posy>
+				<width>410</width>
+				<align>center</align>
 				<label>31027</label>
-				<align>right</align>
 				<font>font12</font>
 				<visible>![Window.IsActive(playercontrols)]</visible>
 				<animation effect="fade" time="100">Hidden</animation>
@@ -415,10 +415,10 @@
 			</control>
 			<control type="label">
 				<description>Select Label</description>
-				<posx>281</posx>
 				<posy>502</posy>
+				<width>440</width>
+				<align>center</align>
 				<label>31024</label>
-				<align>right</align>
 				<font>font12</font>
 				<visible>![Window.IsActive(playercontrols)]</visible>
 				<animation effect="fade" time="100">Hidden</animation>

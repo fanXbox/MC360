@@ -112,18 +112,18 @@
 			</control>
 			<control type="label">
 				<description>Back Label</description>
-				<posx>384</posx>
 				<posy>479</posy>
+				<width>640</width>
+				<align>center</align>
 				<label>31027</label>
-				<align>right</align>
 				<font>font12</font>
 			</control>
 			<control type="label">
 				<description>Select Label</description>
-				<posx>356</posx>
 				<posy>502</posy>
+				<width>640</width>
+				<align>center</align>
 				<label>14070</label>
-				<align>right</align>
 				<font>font12</font>
 			</control>
 		</control>

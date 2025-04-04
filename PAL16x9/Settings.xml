@@ -640,10 +640,10 @@
 		<control type="label">
 			<description>Select Label</description>
 			<include>KeymapFont</include>
-			<posx>583</posx>
 			<posy>528</posy>
+			<width>1050</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>right</align>
 			<visible>!Control.HasFocus(1)</visible>
 			<animation effect="fade" time="100">WindowOpen</animation>
 		</control>

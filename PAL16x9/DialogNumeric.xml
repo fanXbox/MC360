@@ -109,20 +109,20 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>189</posx>
 			<posy>479</posy>
+			<width>250</width>
+			<align>center</align>
 			<label>31027</label>
-			<align>left</align>
 			<font>font12</font>
 			<animation effect="slide" time="250" start="-433,0">WindowOpen</animation>
 			<animation effect="slide" delay="250" time="250" end="-433,0">WindowClose</animation>
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>201</posx>
 			<posy>502</posy>
+			<width>280</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>left</align>
 			<font>font12</font>
 			<animation effect="slide" time="250" start="-433,0">WindowOpen</animation>
 			<animation effect="slide" delay="250" time="250" end="-433,0">WindowClose</animation>

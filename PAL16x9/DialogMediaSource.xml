@@ -81,19 +81,19 @@
 				</control>
 				<control type="label">
 					<description>Back Label</description>
-					<posx>341</posx>
 					<posy>479</posy>
+					<width>540</width>
+					<align>center</align>
 					<label>31027</label>
 					<font>font12</font>
-					<align>right</align>
 				</control>
 				<control type="label">
 					<description>Select Label</description>
-					<posx>353</posx>
 					<posy>502</posy>
+					<width>570</width>
+					<align>center</align>
 					<label>31024</label>
 					<font>font12</font>
-					<align>right</align>
 				</control>
 			</control>
 			<control type="group">
@@ -544,11 +544,11 @@
 		</control>
 		<control type="label">
 			<description>Back Label</description>
-			<posx>334</posx>
 			<posy>479</posy>
+			<width>540</width>
+			<align>center</align>
 			<label>31027</label>
 			<font>font12</font>
-			<align>right</align>
 			<visible>![Window.IsActive(128) | Window.IsActive(126) | Window.IsActive(103)]</visible>
 			<animation effect="fade" time="100">Hidden</animation>
 			<animation effect="fade" delay="450" time="200">Visible</animation>
@@ -557,11 +557,11 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>346</posx>
 			<posy>502</posy>
+			<width>570</width>
+			<align>center</align>
 			<label>31024</label>
 			<font>font12</font>
-			<align>right</align>
 			<visible>![Window.IsActive(128) | Window.IsActive(126) | Window.IsActive(103)]</visible>
 			<animation effect="fade" time="100">Hidden</animation>
 			<animation effect="fade" delay="450" time="200">Visible</animation>

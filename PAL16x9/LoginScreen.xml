@@ -400,10 +400,10 @@
 		</control>
 		<control type="label">
 			<description>Select Label</description>
-			<posx>281</posx>
 			<posy>502</posy>
+			<width>440</width>
+			<align>center</align>
 			<label>31024</label>
-			<align>right</align>
 			<font>font12</font>
 			<shadowcolor>shadow-black</shadowcolor>
 			<animation effect="fade" delay="800" time="250">WindowOpen</animation>
