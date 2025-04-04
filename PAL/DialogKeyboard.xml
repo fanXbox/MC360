@@ -205,7 +205,7 @@
 		</control>
 		<control type="label">
 			<description>Time label</description>
-			<posx>470</posx>
+			<posx>420</posx>
 			<posy>50</posy>
 			<label>time</label>
 			<info>System.Time</info>
@@ -260,7 +260,7 @@
 		</control>
 		<control type="label">
 			<description>Time label</description>
-			<posx>470</posx>
+			<posx>420</posx>
 			<posy>50</posy>
 			<label>time</label>
 			<info>System.Time</info>
