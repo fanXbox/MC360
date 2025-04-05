@@ -201,11 +201,11 @@
 		</control>
 		<control type="label">
 			<description>Time label</description>
-			<posx>335</posx>
+			<posx>290</posx>
 			<posy>45</posy>
 			<label>time</label>
 			<info>System.Time</info>
-			<align>right</align>
+			<align>left</align>
 			<textcolor>TextcolorWhite</textcolor>
 			<font>font14</font>
 			<visible>Window.IsActive(128)</visible>
@@ -231,11 +231,11 @@
 		</control>
 		<control type="label">
 			<description>Time label</description>
-			<posx>335</posx>
+			<posx>290</posx>
 			<posy>45</posy>
 			<label>time</label>
 			<info>System.Time</info>
-			<align>right</align>
+			<align>left</align>
 			<textcolor>TextcolorWhite</textcolor>
 			<font>font14</font>
 			<visible>![Window.IsActive(1120) | Window.IsActive(1121) | [Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)] | Window.IsActive(playercontrols)]</visible>
@@ -467,6 +467,7 @@
 			<align>center</align>
 			<label>31027</label>
 			<font>font12</font>
+			<shadowcolor>shadow-black</shadowcolor>
 			<visible>Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
 			<animation effect="fade" delay="450" time="200">Visible</animation>
@@ -480,6 +481,7 @@
 			<align>center</align>
 			<label>31024</label>
 			<font>font12</font>
+			<shadowcolor>shadow-black</shadowcolor>
 			<visible>Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
 			<animation effect="fade" delay="450" time="200">Visible</animation>
@@ -537,6 +539,7 @@
 			<align>center</align>
 			<label>31027</label>
 			<font>font12</font>
+			<shadowcolor>shadow-black</shadowcolor>
 			<visible>![Window.IsActive(1120) | Window.IsActive(1121)  | Window.IsActive(1122) | [Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)]]</visible>
 			<animation effect="slide" time="250" start="-512,0">WindowOpen</animation>
 			<animation effect="slide" time="250" delay="250" end="-512,0">WindowClose</animation>
@@ -548,6 +551,7 @@
 			<align>center</align>
 			<label>31024</label>
 			<font>font12</font>
+			<shadowcolor>shadow-black</shadowcolor>
 			<visible>![Window.IsActive(1120) | Window.IsActive(1121)  | Window.IsActive(1122) | [Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)]]</visible>
 			<animation effect="slide" time="250" start="-512,0">WindowOpen</animation>
 			<animation effect="slide" time="250" delay="250" end="-512,0">WindowClose</animation>
@@ -570,11 +574,11 @@
 		</control>
 		<control type="label">
 			<description>Time label</description>
-			<posx>335</posx>
+			<posx>290</posx>
 			<posy>45</posy>
 			<label>time</label>
 			<info>System.Time</info>
-			<align>right</align>
+			<align>left</align>
 			<textcolor>TextcolorWhite</textcolor>
 			<font>font14</font>
 			<visible>[Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)] + !Window.IsActive(128)</visible>
@@ -642,6 +646,7 @@
 			<align>center</align>
 			<label>31027</label>
 			<font>font12</font>
+			<shadowcolor>shadow-black</shadowcolor>
 			<visible>[Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)] + !Window.IsActive(playercontrols) + !Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
 			<animation effect="fade" delay="450" time="200">Visible</animation>
@@ -655,6 +660,7 @@
 			<align>center</align>
 			<label>31024</label>
 			<font>font12</font>
+			<shadowcolor>shadow-black</shadowcolor>
 			<visible>[Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)] + !Window.IsActive(playercontrols) + !Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
 			<animation effect="fade" delay="450" time="200">Visible</animation>
@@ -721,6 +727,7 @@
 			<align>center</align>
 			<label>31027</label>
 			<font>font12</font>
+			<shadowcolor>shadow-black</shadowcolor>
 			<visible>[Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)] + Window.IsActive(playercontrols) + !Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
 			<animation effect="fade" delay="450" time="200">Visible</animation>
@@ -734,6 +741,7 @@
 			<align>center</align>
 			<label>31024</label>
 			<font>font12</font>
+			<shadowcolor>shadow-black</shadowcolor>
 			<visible>[Window.IsActive(mediasource) + !Window.IsActive(NetworkSettings)] + Window.IsActive(playercontrols) + !Window.IsActive(128)</visible>
 			<animation effect="fade" time="100">Hidden</animation>
 			<animation effect="fade" delay="450" time="200">Visible</animation>
