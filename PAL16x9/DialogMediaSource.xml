@@ -86,6 +86,7 @@
 					<align>center</align>
 					<label>31027</label>
 					<font>font12</font>
+					<shadowcolor>shadow-black</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Select Label</description>
@@ -94,6 +95,7 @@
 					<align>center</align>
 					<label>31024</label>
 					<font>font12</font>
+					<shadowcolor>shadow-black</shadowcolor>
 				</control>
 			</control>
 			<control type="group">
@@ -549,6 +551,7 @@
 			<align>center</align>
 			<label>31027</label>
 			<font>font12</font>
+			<shadowcolor>shadow-black</shadowcolor>
 			<visible>![Window.IsActive(128) | Window.IsActive(126) | Window.IsActive(103)]</visible>
 			<animation effect="fade" time="100">Hidden</animation>
 			<animation effect="fade" delay="450" time="200">Visible</animation>
@@ -562,6 +565,7 @@
 			<align>center</align>
 			<label>31024</label>
 			<font>font12</font>
+			<shadowcolor>shadow-black</shadowcolor>
 			<visible>![Window.IsActive(128) | Window.IsActive(126) | Window.IsActive(103)]</visible>
 			<animation effect="fade" time="100">Hidden</animation>
 			<animation effect="fade" delay="450" time="200">Visible</animation>
