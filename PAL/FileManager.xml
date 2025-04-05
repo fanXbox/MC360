@@ -49,6 +49,7 @@
 				<font>font10</font>
 				<shadowcolor>shadow-black</shadowcolor>
 				<visible>!System.HasDriveF</visible>
+				<!--COMMENT use System.HasDriveF (without !) to hide the line in case of missing unit-->
 			</control>
 			<control type="label">
 				<description>drive g: free space</description>
@@ -59,6 +60,7 @@
 				<font>font10</font>
 				<shadowcolor>shadow-black</shadowcolor>
 				<visible>!System.HasDriveG</visible>
+				<!--COMMENT use System.HasDriveG (without !) to hide the line in case of missing unit-->
 			</control>
 			<control type="image">
 				<posx>630</posx>
