@@ -43,23 +43,23 @@
 			<control type="label">
 				<description>drive f: free space</description>
 				<posx>525</posx>
-				<posy>25</posy>
+				<posy>50</posy>
 				<label>$INFO[System.Freespace(F)]</label>
 				<align>right</align>
 				<font>font10</font>
 				<shadowcolor>shadow-black</shadowcolor>
-				<visible>!System.HasDriveF</visible>
-				<!--COMMENT use System.HasDriveF (without !) to hide the line in case of missing unit-->
+				<visible>System.HasDriveF</visible>
+				<!--COMMENT use System.HasDriveF (without !) to hide the line in case of missing unit, it is more compatible with different conditions-->
 			</control>
 			<control type="label">
 				<description>drive g: free space</description>
 				<posx>525</posx>
-				<posy>50</posy>
+				<posy>25</posy>
 				<label>$INFO[System.Freespace(G)]</label>
 				<align>right</align>
 				<font>font10</font>
 				<shadowcolor>shadow-black</shadowcolor>
-				<visible>!System.HasDriveG</visible>
+				<visible>System.HasDriveG</visible>
 				<!--COMMENT use System.HasDriveG (without !) to hide the line in case of missing unit-->
 			</control>
 			<control type="image">
